@@ -1,36 +1,29 @@
-# iTrade
+iTrade
 
-Projeto inicial de Engenharia de Software 2019.2
-
-![itrade logo](https://raw.githubusercontent.com/kazuhirodk/itrade/master/src/components/images/itrade-logo.png)
-
-#### Versions
+Versions
 - **Node** 10.15.3
 - **react-native-cli** 2.0.1
 - **react-native** 0.60.5
 
-#### *Before setting up the development environment, install React Native according to the documentation.*
+Before setting up the development environment, install React Native according to the documentation.
 - ['React Native Doc'](https://facebook.github.io/react-native/docs/getting-started)
 
-#### Installing dependencies
-`npm install`
+To install dependencies(Android developer's environment)
+npm install
 
-#### Installing pods
-```
+To install pods(iOS developer's environment)
 cd ios
 pod install
-```
 
-#### Running the database
-`cd data` 
-`json-server --watch db.json`
+To build and run developer's environment
+Install Android Studio
+Open Android Studio
+Import existing project in workspace
+Select android folder and import
+Wait to build and run tasks from gradle
+Run App(Not Debug)
 
-The database will be running on localhost:3000
-
-
-
-#### Run project
-```
-react-native run-ios
+Run project in terminal(Android)
 react-native run-android
-```
+
+react-native run-ios
